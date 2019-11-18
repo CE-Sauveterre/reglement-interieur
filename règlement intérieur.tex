@@ -1,0 +1,336 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[french]{babel}
+\usepackage[notitlepage,fancysections,pagenumber]{sauveterre}
+
+\usepackage{enumitem}
+
+\usepackage{indentfirst}
+\usepackage{lipsum}
+
+\usepackage{cases}
+\usepackage{multicol}
+
+%formatting titles
+\usepackage{titlesec}
+\titleformat*{\section}{\centering\Large\bfseries}
+\titleformat*{\subsection}{\centering\large\bfseries}
+
+%formatting date
+\usepackage[ddmmyyyy]{datetime}
+\renewcommand{\dateseparator}{/}
+
+%\usepackage{geometry}
+%\geometry{
+% a4paper,
+% total={170mm,257mm},
+% left=20mm,
+% top=20mm,
+% }
+ 
+\usepackage{pgf,tikz}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+
+\usepackage[export]{adjustbox}
+
+\renewcommand{\notitlepageupperline}{
+	\noindent%
+	\begin{minipage}{\textwidth}
+		\centering
+		\begin{minipage}{0.33\textwidth}
+			\raisebox{-0.5\height}
+			{\color{bleu-sauveterre}%
+				\includegraphics[height=0.8\hauteurlogovert]
+				{\polylogovert}
+				}
+		\end{minipage}%
+		\begin{minipage}{0.33\textwidth}
+			\color{bleu-sauveterre}%
+			\centering\polydatesave
+			\polyauthorsave
+			\hspace{3em}
+		\end{minipage}%
+		\begin{minipage}{0.33\textwidth}
+			\color{bleu-sauveterre}%
+			\flushright\raisebox{-0.5\height}
+			{\includegraphics[height=0.8\hauteurlogovert]{logo-federal}
+			}
+		\end{minipage}
+	\end{minipage}
+}
+
+%\usepackage{fancyhdr}
+%\usepackage{lastpage}
+%\pagestyle{fancy}
+%\fancyhf{}
+%%headers and footers
+%\lhead{Centre Équestre de Sauveterre}
+%\chead{Règlement intérieur}
+%\rhead{Version du \today}
+%\rfoot{Page \thepage \ sur \pageref{LastPage}}
+
+%\fancypagestyle{firstpage}{%
+%  \fancyhf{}
+%  \renewcommand\headrulewidth{0pt}
+%  \fancyfoot[R]{Page \thepage \ sur \pageref{LastPage}}
+%}
+%
+%\title{\vspace{-50pt}
+%\includegraphics[width=0.4\textwidth , left]{logo2-v2.eps}~ 
+%\\[8pt]
+%{\huge \textsc{Règlement intérieur}}
+%}
+
+\title{Règlement intérieur}
+\author{}
+\date{}
+
+%enumerate environment formatting
+\renewcommand{\labelenumi}{\textbf{\arabic{enumi}.}}
+\renewcommand{\labelenumii}{\textbf{\arabic{enumi}.\arabic{enumii}.}}
+\renewcommand{\labelenumiii}{\textbf{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.}}
+
+%change sec and subsec numbering
+\renewcommand{\thesection}{Section \Roman{section}.}
+\renewcommand{\thesubsection}{Article \arabic{subsection} :}
+
+\renewcommand{\labelenumi}{\arabic{enumi}.}
+
+
+\renewcommand*\contentsname{Plan}
+
+
+\usepackage{framed}
+
+%\setlength{\parindent}{0pt}%remove indentation
+
+\begin{document}
+
+\maketitle
+
+%\thispagestyle{firstpage}
+%\vspace{-30pt}
+
+Le présent règlement est supposé connu et approuvé par toute personne adhérente au Centre Équestre. Le Centre Équestre s'engage à en adresser une copie à quiconque en ferait la demande.
+
+Le présent règlement abroge et remplace tout règlement précédemment établi.
+
+\subsection*{Préambule}
+
+Ce règlement a comme objectif d'éviter tout accident, incident et malentendu qui pourraient nuire à l'ambiance et à la bonne tenue du Centre Équestre.
+
+Il s'applique dans toute l'enceinte du Centre Équestre (intérieure et extérieure). Il est à respecter par toute personne entrant dans l'enceinte du Centre Équestre : membres, stagiaires, propriétaires, personnels, clientèle.
+
+Le non respect de ce règlement entrainera l'exclusion provisoire ou définitive du Centre Équestre, sans indemnité.
+
+\subsection{Organisation générale}
+Toutes les activités du Centre Équestre ainsi que toutes les installations dont il dispose sont placées sous l'autorité des gérants.
+
+\subsection{Fonctionnement}
+Pour des raisons de sécurité, tout cavalier doit attendre la présence d'un encadrant du club, ou son accord, avant de s'occuper d'un cheval (hors propriétaire s'occupant de son propre équidé).
+
+Tout cavalier doit impérativement passer au bureau avant le début de la séance pour signaler sa présence à la personne chargée de l'accueil.
+
+Afin d'équilibrer le travail des chevaux et des poneys, les cavaliers sont tenus de signaler, au plus tard la veille, leur éventuelle absence de l'activité.
+
+Il est recommandé aux cavaliers élèves d'être présents une demi-heure avant la reprise.
+
+Les cartes sont strictement nominatives et ne peuvent être revendues ou transférées sans accord de l'exploitant. \par
+Les cartes ne sont ni reprises ni remboursées.
+
+Après chaque activité, le matériel doit être remis en place (sauf avis contraire de l'enseignant) :
+\begin{itemize}[leftmargin=50pt]
+\item
+Les selles rangées pommeau vers le mur ;
+\item
+Les tapis aux emplacements prévus ;
+\item
+Les étriers remontés ;
+\item
+Les mors lavés ;
+\item
+Les brosses, graisses et accessoires rangés aux places qui leur sont désignées.
+\end{itemize}
+
+Les tarifs :
+\begin{itemize}[leftmargin=50pt]
+\item
+Sont affichés au bureau, à l'intérieur et à l'extérieur ;
+\item
+Sont consultables sur le site internet du Centre Équestre.
+\end{itemize}
+
+Les leçons retenues, non décommandées avant 18h00 la veille de la reprise, sont dues.
+
+\subsection{Utilisation des installations}
+Toutes les activités de l'établissement ainsi que toutes les installations dont il dispose sont placées sous l'autorité du gérant et du personnel de l'établissement. \par 
+En période de congés ou d'absence du responsable, les employés restant sur le site sont chargés de veiller au bon fonctionnement du Centre Équestre et d'appliquer les consignes données. \par 
+Pour la tranquillité et le repos des chevaux, il est demandé de respecter expressément les heures d'ouverture.
+
+Les installations du Centre Équestre -- carrières, manège, écuries, accueil,... -- ne sont utilisables que par :
+\begin{itemize}[leftmargin=50pt]
+\item
+Les adhérents à jour de leur cotisation et de leur licence, qui participent à une activité dirigée par des encadrants du Centre Équestre ;
+\item
+Les cavaliers \og de passage \fg{} qui participent à une activité encadrée par le Centre Équestre ;
+\item
+Les propriétaires qui utilisent seuls leur cheval (\textit{cf.} article 10).
+\end{itemize}
+
+Toute autre cas d'utilisation des installations est formellement interdit. Une éventuelle dérogation requiert obligatoirement et préalablement l'accord écrit du Centre Équestre.
+
+Seuls sont autorisés à pratiquer le saut d'obstacles en autonomie les propriétaires titulaires du Galop 7. Les autres en ont l'interdiction formelle.
+
+Chaque membre doit veiller au respect des plantations et là la propreté générale des lieux.
+
+Les véhicules doivent être garés sur le parking ou des emplacements en bordure de route prévus à cet effet.
+
+\subsection{Interdiction de fumer}
+Il est strictement interdit de fumer dans l'enceinte du Centre Équestre, à l'exception des endroits prévus à cet effet.
+
+Les mégots devront impérativement jetés dans les cendriers prévus à cet effet.
+
+\subsection{Observations et suggestions par les membres}
+Un cahier est tenu à la disposition des adhérents, à l'accueil, afin que ceux-ci puissent y consigner les observations et suggestions qu'ils désirent formuler concernant le fonctionnement du Centre Équestre.
+
+\subsection{Discipline}
+Durant les activités, et en particulier à l'intérieur des locaux ou installations, les adhérents doivent observer une obéissance complète aux encadrants, en particulier concernant les consignes de sécurité.
+
+En tout lieu et en toute circonstance, les adhérents sont tenus d'observer une attitude respectueuse empreinte de correction et de savoir-vivre vis-à-vis du personnel encadrant et des autres salariés.
+
+En retour et dans les mêmes circonstances, le personnel encadrant et les salariés sont tenus d'observer une attitude respectueuse empreinte de correction et de savoir-vivre vis-à-vis des adhérents.
+
+Aucune manifestation discourtoise envers le Centre Équestre, ses structures, ses administrateurs, son personnel ou ses adhérents n'est admise par oral. (\textit{cf.} article 7).
+
+Toute personne fréquentant le Centre Équestre se doit d'observer les règles de sécurité internes (ne pas courir, faire de gestes brusques,...) dans les écuries ou les lieux de travail.
+
+Les jeux (ballons, boomerangs,...) sont interdits dans l'enceinte du Club.\par 
+Les chiens extérieurs à ceux appartenant au Centre Équestre doivent être tenus en laisse.\par 
+Les jeux des enfants dans les bottes de paille sont également interdits.
+
+D'une manière générale, les enfants ne doivent pas jouer sur le site sans être surveillés de leurs parents. Ils sont sous leur responsabilité.
+
+Pendant les reprises, seul l'enseignant et ses aides sont habilités à se trouver sur le terrain d'évolution.
+
+Il est interdit de sortir ou de déplacer les obstacles des carrières ou manèges sans l'autorisation du responsable.
+
+\subsection{Réclamations}
+Tout adhérent désireux de présenter une réclamation qu'il estime motivée et justifiée concernant le Centre Équestre peut opérer de l'une des manières suivantes :
+\begin{itemize}[leftmargin=50pt]
+\item
+S'adresser directement à l'un des encadrants de façon confidentielle ;
+\item
+S'adresser directement aux gérants de l'exploitation par oral ou leur adresser un courrier ;
+\item
+Consigner sa réclamation sur le cahier prévu à l'article 5.
+\end{itemize}
+Tout réclamation présentée sous l'une des formes ainsi définies doit recevoir une réponse sous 8 jours.
+
+\subsection{Sanctions}
+Toute attitude répréhensible d'un adhérent et en particulier toute inobservation des statuts ou du règlement intérieur expose celui qui en est responsable à des sanctions qui peuvent être de trois ordres~:
+\begin{enumerate}
+\item
+La mise à pied prononcée par le Comité Exécutif pour une durée ne pouvant excéder un mois. L'adhérent qui est mis à pied ne peut, pendant la durée de la sanction, ni monter un cheval appartenant au Centre Équestre, ni utiliser les terrains d'évolution, manège ou carrières.
+\item
+L'exclusion temporaire ou suspension, prononcée par le Conseil d'Administration pour une durée ne pouvant excéder une année. L'adhérent qui est exclus temporairement n'a plus accès aux locaux et installations du Centre Équestre, et ne peut, pendant la durée de la sanction, participer à aucune des activités -- publiques ou privées -- ni assister aux assemblées générales.
+\item
+L'exclusion définitive.
+\end{enumerate}
+Tout adhérent faisant l'objet d'une sanction ne peut prétendre à aucun remboursement des sommes déjà payées par lui se rapportant aux activités dont la sanction le prive.
+
+\textit{\textbf{Le respect du cheval étant une règle absolue, tout mauvais traitement entraîne l'exclusion immédiate.}}
+
+\subsection{Tenue}
+Pour monter à cheval, tant à l'intérieur qu'à l'extérieur, les adhérents du Centre Équestre doivent adopter une tenue vestimentaire correcte et conforme aux usages traditionnels de l'équitation française.
+
+Le port du casque est obligatoire. Il doit être porté afin de constituer une protection effective pour le cavalier et être conforme à la norme imposée par la règlementation en vigueur.
+
+\subsection{Assurances}
+Les adhérents sont obligatoirement assurés pour leur responsabilité civile dans le cadre de l'assurance du Centre Équestre, durant le temps d'activité équestre. Il leur appartient de prendre connaissance au bureau de l'étendue et des limites de garantie qui leur sont ainsi accordées.
+
+Aucun adhérent ne peut participer aux activités du Centre Équestre ou utiliser ses installations s'il n'a pas acquitté sa cotisation pour l'année en cours et s'il n'est pas titulaire d'une licence de la FFE de l'année en cours.
+
+La responsabilité du Centre Équestre est dégagée dans le cas d'un accident provoqué par une inobservation du règlement intérieur.
+
+\subsection{Prise en charge des enfants mineurs}
+Les cavaliers mineurs ne sont sous la responsabilité du Centre Équestre que durant la durée de leur reprise (ou de leur promenade) et durant le temps de préparation de l'équidé et le retour à l'écurie (ou en prairie), soit \textit{\textbf{une demi-heure avant}} et \textit{\textbf{une demi-heure après}}.
+
+En dehors des heures des activités ainsi définies, même sur le site du Centre Équestre, \textit{\textbf{les mineurs sont sous la responsabilité de leurs parents ou de leur tuteur légal}}.
+
+\subsection{Balades}
+Les tours de poneys en main se font sous l'entière responsabilité des parents, de la famille, ou de leur délégué. \par 
+L'accompagnant familial doit disposer de toutes ses facultés physiques pour assurer la sécurité du cavalier ou de la cavalière lors de la prise en main. Tout handicap reconnu (articulations foulées ou cassées, etc...) ou situation ponctuelle (femme enceinte, etc...) interdit la prise en main pour des raisons évidentes de sécurité.
+
+Les balades en main se font uniquement au pas, à raison d'un enfant seulement par poney, ce dernier devant obligatoirement porter une bombe. Le non respect de ces conditions peut entrainer une exclusion du Centre Équestre comme prévu dans l'article 8.
+
+\subsection{Propriétaires de chevaux}
+Les chevaux des membres actifs peuvent être pris en pension par le Centre Équestre aux conditions suivantes :
+\begin{itemize}
+\item
+Production d'un certificat vétérinaire attestant que le cheval est en bonne santé, avec signalement des tares éventuelles ;
+\item
+Signature d'un contrat entre le propriétaire et le centre. Il fixe :
+\begin{enumerate}
+\item
+Le choix de la formule de pension ;
+\item
+Le tarif de la pension et les modalités de paiement ;
+\item
+Les droits et devoirs de chaque partie.
+\end{enumerate}
+\end{itemize}
+Les pensions sont à honorer \textit{\textbf{entre le premier et le 5 de chaque mois}}.
+
+Les propriétaires pourront utiliser les installations dans la mesure de leurs disponibilités et après accord d'un encadrant ou d'un membre du Comité Exclusif. \par 
+Assurances : le Centre Équestre prend à sa charge l'assurance des risques de responsabilité civile découlant de la garde et de la surveillance de l'équidé.
+
+Le propriétaire prendra à sa charge le coût de l'assurance mortalité de son cheval. S'il désire rester son propre assureur pour ce risque, il en fera la déclaration au Centre Équestre.
+
+Il est entendu que le propriétaire renonce à tout recours contre le Centre Équestre dans l'hypothèse d'accident survenant au cheval et n'engageant pas expressément la responsabilité professionnelle du Centre Équestre.
+
+Les risques de vol ou de dégradations consécutives à une tentative de vol survenant au matériel de sellerie ne sont garantis qu'en cas d'effraction de la sellerie du Centre Équestre ; ainsi le propriétaire renonce-t-il à tout recours en cas de vol ou de dégradation de son matériel de sellerie survenant dans toute autre condition.
+
+N.B. : Le déplacement d'un cheval au pair fait l'objet d'un accord particulier.
+
+Les propriétaires sont mis au courant dès leur arrivée des spécificités liées à la circulation sur la voie publique et des conditions d'accès à la forêt et à la plage.
+
+\subsection{Autorisation de reproduction d'images et cession de droits}
+Conformément aux dispositions relatives au droit à l'image et au droit d'auteur, les adhérents autorisent le Centre Équestre ainsi que son Association à capter, utiliser ou diffuser des images photo ou vidéo prises dans le cadre des activités du Club, sur les supports suivants :
+\begin{itemize}
+\item
+Site internet du Club ;
+\item
+Journal d'information du Club ;
+\item
+Documents de présentation et promotion des activités de la SARL Centre Équestre de Sauveterre;
+\item
+Journaux de la presse quotidienne locale ;
+\item
+Journaux spécialisés des sports équestres.
+\end{itemize} 
+Dans les conditions d'utilisation définies ci-dessus, les adhérents renoncent à tout recours ou toute indemnité contre le Centre Équestre ou son Association.
+
+\subsection{Application}
+En signant leur adhésion à l'établissement, les membres reconnaissent formellement avoir pris connaissance du règlement intérieur et en accepter toutes les dispositions.
+
+\vspace{10cm}
+
+Fait à Olonne sur mer, le \today
+
+\vspace{2cm} 
+
+\begin{flushright}
+\rule{6cm}{0.5pt}
+
+{Stéphane MARAIS, Directrice \kern 9pt}
+
+\end{flushright}
+
+\end{document}
