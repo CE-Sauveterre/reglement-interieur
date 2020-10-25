@@ -1,0 +1,180 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[french]{babel}
+\usepackage[notitlepage,fancysections,pagenumber]{sauveterre}
+
+\usepackage{enumitem}
+
+\usepackage{indentfirst}
+\usepackage{lipsum}
+
+\usepackage{cases}
+\usepackage{multicol}
+
+%formatting titles
+\usepackage{titlesec}
+\titleformat*{\section}{\centering\Large\bfseries}
+\titleformat*{\subsection}{\centering\large\bfseries}
+
+%formatting date
+\usepackage[ddmmyyyy]{datetime}
+\renewcommand{\dateseparator}{/}
+
+%\usepackage{geometry}
+%\geometry{
+% a4paper,
+% total={170mm,257mm},
+% left=20mm,
+% top=20mm,
+% }
+
+\usepackage{pgf,tikz}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+
+\usepackage[export]{adjustbox}
+
+\renewcommand{\notitlepageupperline}{
+	\noindent%
+	\begin{minipage}{\textwidth}
+		\centering
+		\begin{minipage}{0.33\textwidth}
+			\raisebox{-0.5\height}
+			{\color{bleu-sauveterre}%
+				\includegraphics[height=0.8\hauteurlogovert]
+				{\polylogovert}
+				}
+		\end{minipage}%
+		\begin{minipage}{0.33\textwidth}
+			\color{bleu-sauveterre}%
+			\centering\polydatesave
+			\polyauthorsave
+			\hspace{3em}
+		\end{minipage}%
+		\begin{minipage}{0.33\textwidth}
+			\color{bleu-sauveterre}%
+			\flushright\raisebox{-0.5\height}
+			{\includegraphics[height=0.8\hauteurlogovert]{logo-federal}
+			}
+		\end{minipage}
+	\end{minipage}
+}
+
+%\usepackage{fancyhdr}
+%\usepackage{lastpage}
+%\pagestyle{fancy}
+%\fancyhf{}
+%%headers and footers
+%\lhead{Centre Équestre de Sauveterre}
+%\chead{Règlement intérieur}
+%\rhead{Version du \today}
+%\rfoot{Page \thepage \ sur \pageref{LastPage}}
+
+%\fancypagestyle{firstpage}{%
+%  \fancyhf{}
+%  \renewcommand\headrulewidth{0pt}
+%  \fancyfoot[R]{Page \thepage \ sur \pageref{LastPage}}
+%}
+%
+%\title{\vspace{-50pt}
+%\includegraphics[width=0.4\textwidth , left]{logo2-v2.eps}~
+%\\[8pt]
+%{\huge \textsc{Règlement intérieur}}
+%}
+
+\title{Conditions générales de prise en pension}
+\subtitle{Annexe II du \textit{Règlement Intérieur}}
+\author{}
+\date{}
+
+%enumerate environment formatting
+\renewcommand{\labelenumi}{\textbf{\arabic{enumi}.}}
+\renewcommand{\labelenumii}{\textbf{\arabic{enumi}.\arabic{enumii}.}}
+\renewcommand{\labelenumiii}{\textbf{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.}}
+
+%change sec and subsec numbering
+\renewcommand{\thesection}{Section \Roman{section}.}
+\renewcommand{\thesubsection}{Article \arabic{subsection} :}
+
+\renewcommand{\labelenumi}{\arabic{enumi}.}
+
+
+\renewcommand*\contentsname{Plan}
+
+\renewcommand{\emph}[1]{\textit{\textbf{#1}}}
+
+
+\usepackage{framed}
+
+%\setlength{\parindent}{0pt}%remove indentation
+
+\begin{document}
+
+\maketitle
+
+%\thispagestyle{firstpage}
+%\vspace{-30pt}
+
+Le présent document précise les modalités et conditions applicables par tout propriétaire ayant un équidé en pension au Centre Équestre. Le non respect des présentes conditions peut entraîner une rupture du contrat et une exclusion de l'équidé de l'enceinte du Centre Équestre.
+
+\subsection*{Prise en pension}
+Les chevaux des membres actifs peuvent être pris en pension par le Centre Équestre aux conditions suivantes :
+\begin{itemize}
+\item
+Production d'un certificat vétérinaire attestant que le cheval est en bonne santé, avec signalement des tares éventuelles ;
+\item
+Signature d'un contrat entre le propriétaire et le centre. Il fixe :
+\begin{enumerate}
+\item
+Le choix de la formule de pension ;
+\item
+Le tarif de la pension et les modalités de paiement ;
+\item
+Les droits et devoirs de chaque partie.
+\end{enumerate}
+\end{itemize}
+
+\subsection*{Paiement de la pension}
+Les pensions sont à honorer \textit{\textbf{entre le premier et le 5 de chaque mois}}. Le règlement peut se faire avec tout moyen de paiement précisé dans le \textit{Règlement Intérieur} ou accepté par la direction.
+
+Le paiement en plusieurs fois fait l'objet d'un accord tacite entre le propriétaire et la direction.
+
+\subsection*{Rupture du contrat}
+Tout contrat de pension signé est valable un an et reconductible par tacite reconduction. Toute rupture du contrat par le propriétaire fait l'objet d'un \textbf{préavis de deux mois} et devra être notifiée par écrit. Durant ces deux mois, l'équidé ne peut être retiré du Centre Équestre et les pensions restent dues.
+
+Cependant, tout contrat peut être rompu sans préavis par la direction pour des raisons disciplinaires comme prévues à l'art. 8 du \textit{Règlement Intérieur}.
+
+\subsection*{Utilisation des installations et balades}
+Les propriétaires pourront utiliser les installations dans la mesure de leurs disponibilités et après accord d'un encadrant, dans le respect du règlement intérieur.
+
+Toute dégradation du matériel ou des installations par un propriétaire ou son équidé sera à sa charge.
+
+La pratique du saut d'obstacles par un propriétaire est interdite si ce dernier n'est pas titulaire du Galop 7 (le niveau validé sur la FFE faisant foi).
+
+Les propriétaires sont mis au courant dès leur arrivée des spécificités liées à la circulation sur la voie publique et des conditions d'accès à la forêt et à la plage. La responsabilité du Centre Équestre ne saurait être engagée dans le cas d'un propriétaire ne respectant pas le balisage équestre en forêt et les conditions d'accès à la plage.
+
+\subsection*{Assurances}
+Le Centre Équestre prend à sa charge l'assurance des risques de responsabilité civile découlant de la garde et de la surveillance de l'équidé.
+
+Le propriétaire prendra à sa charge le coût de l'assurance mortalité de son cheval. S'il désire rester son propre assureur pour ce risque, il en fera la déclaration au Centre Équestre.
+
+Il est entendu que le propriétaire renonce à tout recours contre le Centre Équestre dans l'hypothèse d'accident survenant au cheval et n'engageant pas expressément la responsabilité professionnelle du Centre Équestre.
+
+\subsection*{Matériel}
+Les risques de vol ou de dégradations consécutives à une tentative de vol survenant au matériel de sellerie ne sont garantis qu'en cas d'effraction de la sellerie du Centre Équestre ; ainsi le propriétaire renonce-t-il à tout recours en cas de vol ou de dégradation de son matériel de sellerie survenant dans toute autre condition, en particulier s'il laisse son matériel accroché à la porte du box ou dans son van ou camion stationné sur le parking du Centre Équestre.
+
+\vfill
+\begin{flushright}
+	Version du \today
+\end{flushright}
+
+
+
+
+\end{document}
