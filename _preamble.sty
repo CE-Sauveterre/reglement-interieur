@@ -70,28 +70,28 @@
    \renewcommand{\notitlepageupperline}{
       \noindent%
       \begin{minipage}{\textwidth}
-      \centering
-      \begin{minipage}{0.33\textwidth}
-      \raisebox{-0.5\height}
-      {\color{bleu-sauveterre}%
-      \includegraphics[height=0.8\hauteurlogovert]
-      {\polylogovert}
-      }
-      \end{minipage}%
-      \begin{minipage}{0.33\textwidth}
-      \color{bleu-sauveterre}%
-      %\centering\polydatesave
-      %\polyauthorsave
-      \hspace{3em}
-      \end{minipage}%
-      \begin{minipage}{0.33\textwidth}
-      \color{bleu-sauveterre}%
-      \flushright\raisebox{-0.5\height}
-      {\includegraphics[height=0.8\hauteurlogovert]{logo-federal}
-      }
+         \centering
+         \begin{minipage}{0.33\textwidth}
+            \raisebox{-0.5\height}
+            {\color{bleu-sauveterre}%
+            \includegraphics[height=0.8\hauteurlogovert]
+            {\polylogovert}
+            }
+         \end{minipage}%
+         \begin{minipage}{0.33\textwidth}
+            \color{bleu-sauveterre}%
+            %\centering\polydatesave
+            %\polyauthorsave
+            \hspace{3em}
+         \end{minipage}%
+         \begin{minipage}{0.33\textwidth}
+            \color{bleu-sauveterre}%
+            \flushright\raisebox{-0.5\height}
+            {\includegraphics[height=0.8\hauteurlogovert]{logo-federal}
+            }
 
-      \polydatesave
-      \end{minipage}
+            \polydatesave
+         \end{minipage}
       \end{minipage}
    }
 }
@@ -101,22 +101,17 @@
 \renewcommand{\labelenumii}{\textbf{\arabic{enumi}.\arabic{enumii}.}}
 \renewcommand{\labelenumiii}{\textbf{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.}}
 
+
 %formatting titles
 \RequirePackage{titlesec}
-%\titleformat*{\section}{\centering\Large\bfseries}
-%\titleformat*{\subsection}{\centering\large\bfseries}
 
 \titleformat*{\section}{\centering\Large\bfseries}
-%\titleformat*{\subsection}{\centering\large\bfseries}{Article~\thesubsection :}
 \titleformat{\subsection}{\centering\large\bfseries}{Article~\thesubsection~:}{.5em}{}[\vspace*{-0.3\baselineskip}%
 \includegraphics{\polyfiletcourtbleuclair}]
 
 %change sec and subsec numbering
 \renewcommand{\thesection}{Section \Roman{section}.}
 \renewcommand{\thesubsection}{\arabic{subsection}}
-
-
-\renewcommand{\labelenumi}{\arabic{enumi}.}
 
 
 \renewcommand*\contentsname{Plan}
